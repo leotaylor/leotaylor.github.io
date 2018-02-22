@@ -1,0 +1,12 @@
+
+/* Navigation Bar */
+.navbar {
+    background-color: red;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: green;
+    text-align: center;
+    font-size: 16px;
+}
