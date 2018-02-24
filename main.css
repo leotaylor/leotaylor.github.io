@@ -1,4 +1,5 @@
 
+
 /* Navigation Bar */
 .navbar {
     background-color: red;
@@ -6,7 +7,27 @@
 }
 
 .navbar a {
-    color: green;
+    color: black;
     text-align: center;
     font-size: 16px;
+    font-weigth: bold;
+    margin-right: 35px;
+}
+
+/* Projects */
+img {
+    height: autox;
+    width: 400px;
+    margin-left: 33%;
+}
+
+.projects {
+    background-color: cornsilk;
+}
+
+/* Index */
+.index {
+    width: 75%;
+    margin: 100px 0 0 100px;
+    position: relative;
 }
