@@ -23,19 +23,23 @@ body {
     color: black;
     font-size: 1.3em;
     font-weight: bold;
-    margin-right: 1em;
+    margin-right: .5em;
+    padding: 0 .5em 0 .5em;
 }
 
 .navbar a:hover {
     color: gold;
     background-color: navy;
+    block-size: 1.6em;
 }
 
-.navbar:active {
-    
+.navbar a:active {
+    border-radius: 0 0 50% 50%;
+    height: 2.2em;
+    /* replace with command to make grow in size on left and right*/
 }
 
-/* Projects */
+/* ---------Projects ------------- */
 img {
     height: auto;
     width: 400px;
