@@ -26,6 +26,15 @@ body {
     margin-right: 1em;
 }
 
+.navbar a:hover {
+    color: gold;
+    background-color: navy;
+}
+
+.navbar:active {
+    
+}
+
 /* Projects */
 img {
     height: auto;
