@@ -30,12 +30,13 @@ body {
 .navbar a:hover {
     color: gold;
     background-color: navy;
-    block-size: 1.6em;
+    block-size: 1.55em;
 }
 
 .navbar a:active {
-    border-radius: 0 0 50% 50%;
-    height: 2.2em;
+    /* border-radius: 0 0 50% 50%;
+    height: 2.2em; */
+    transform: scaleX(1.10);
     /* replace with command to make grow in size on left and right*/
 }
 
