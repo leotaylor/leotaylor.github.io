@@ -3,6 +3,8 @@ body {
     margin: 1em;
     padding: 1em;
     padding-bottom: 1.5em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: cornsilk;
 }
 /* Navigation Bar */
 .fixed-bar {
@@ -49,14 +51,14 @@ img {
 }
 
 .projects {
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 }
 
 /* Index */
 .index {
-    width: 75%;
-    margin: 100px 0 0 100px;
-    position: relative;
+    /* width: 75%; */
+    /* margin: 100px 0 0 100px; */
+    /* position: relative; */
 }
 
 /* Footer */
@@ -72,4 +74,27 @@ img {
 /* ----------Blogs----------- */
 .blogs{
     background-color: cornsilk;
+}
+
+.blogContainer{
+    margin: auto;
+    width: 65%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    box-shadow: -5px -5px 8px 5px #888888;
+    color: rgb(101, 180, 204);
+}
+
+#seperate{
+    box-shadow: 5px 5px 8px 5px #888888;
+    padding: 5px;
+    background-color: rgb(236, 228, 198);
+    /* height: 300px; */
+    /* overflow: scroll; */
+    color: black;
+}
+
+#blogTitle{
+    text-decoration: underline;
 }
