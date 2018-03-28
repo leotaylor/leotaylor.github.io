@@ -26,9 +26,9 @@ var blogs = [
     }
   ];
 
-  function createBlogPosts(blogArray){
-    var blogString = "";
-      for(var i = 0; i < blogArray.length; i++){
+  const createBlogPosts = (blogArray) => {
+    let blogString = "";
+      for(let i = 0; i < blogArray.length; i++){
           
           blogString += "<h1>" + blogArray[i].id + "</h1>";
           blogString += "<h1 id='blogTitle'>" + blogArray[i].title + "</h1>";
@@ -38,8 +38,8 @@ var blogs = [
     writeToDom(blogString, "my-blogs");
   }
   
-  function writeToDom(stringToPrint, divId){
-    var printDiv = document.getElementById(divId);
+  const writeToDom = (stringToPrint, divId) =>{
+    let printDiv = document.getElementById(divId);
     printDiv.innerHTML += stringToPrint;
   }
 createBlogPosts(blogs);

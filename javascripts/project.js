@@ -45,9 +45,9 @@ var projects = [
   ];
 
 
-  function createProjectCards(projectArray){
-    var projectString = "";
-      for(var i = 0; i < projectArray.length; i++){
+  const createProjectCards = (projectArray) => {
+    let projectString = "";
+      for(let i = 0; i < projectArray.length; i++){
           
           projectString += "<h1>" + projectArray[i].id + "</h1>";
           projectString += "<h3>" + projectArray[i].title + "</h3>";
@@ -58,8 +58,8 @@ var projects = [
     writeToDom(projectString, "my-projects");
   }
   
-  function writeToDom(stringToPrint, divId){
-    var printDiv = document.getElementById(divId);
+  const writeToDom = (stringToPrint, divId) =>{
+    let printDiv = document.getElementById(divId);
     printDiv.innerHTML += stringToPrint;
   }
 createProjectCards(projects);
