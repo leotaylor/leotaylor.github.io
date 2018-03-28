@@ -48,12 +48,12 @@ var projects = [
   const createProjectCards = (projectArray) => {
     let projectString = "";
       for(let i = 0; i < projectArray.length; i++){
-          
-          projectString += "<h1>" + projectArray[i].id + "</h1>";
-          projectString += "<h3>" + projectArray[i].title + "</h3>";
-          projectString +=  "<h3><img src='" + projectArray[i].imageUrl+ "'</h3>";
-          projectString += "<h3>" + projectArray[i].description + "</h3>";
-          projectString += "<h3>Check it out <a href='" + projectArray[i].githubUrl +"'> here!</a></h3>";
+          projectString += `<div>`;
+          projectString +=      `<h1>${projectArray[i].id}</h1>`;
+          projectString +=      `<h3>${projectArray[i].title}</h3>`;
+          projectString +=      `<h3><img src= "${projectArray[i].imageUrl}"</h3>`;
+          projectString +=      `<h3>${projectArray[i].description}</h3>`;
+          projectString +=      `<h3>Check it out <a href="${projectArray[i].githubUrl}"> here!</a></h3>`;
       }
     writeToDom(projectString, "my-projects");
   }
