@@ -48,6 +48,9 @@ img {
     width: 400px;
     margin-left: 33%;
     border-radius: 50%;
+    border-style: double;
+    padding: 12px;
+    background-color: rgb(197, 175, 133);
 }
 
 .projects {

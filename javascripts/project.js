@@ -45,21 +45,21 @@ var projects = [
   ];
 
 
-  function createProjectCards(projectArray){
-    var projectString = "";
-      for(var i = 0; i < projectArray.length; i++){
-          
-          projectString += "<h1>" + projectArray[i].id + "</h1>";
-          projectString += "<h3>" + projectArray[i].title + "</h3>";
-          projectString +=  "<h3><img src='" + projectArray[i].imageUrl+ "'</h3>";
-          projectString += "<h3>" + projectArray[i].description + "</h3>";
-          projectString += "<h3>Check it out <a href='" + projectArray[i].githubUrl +"'> here!</a></h3>";
+  const createProjectCards = (projectArray) => {
+    let projectString = "";
+      for(let i = 0; i < projectArray.length; i++){
+          projectString += `<div>`;
+          projectString +=      `<h1>${projectArray[i].id}</h1>`;
+          projectString +=      `<h3>${projectArray[i].title}</h3>`;
+          projectString +=      `<h3><img src= "${projectArray[i].imageUrl}"</h3>`;
+          projectString +=      `<h3>${projectArray[i].description}</h3>`;
+          projectString +=      `<h3>Check it out <a href="${projectArray[i].githubUrl}"> here!</a></h3>`;
       }
     writeToDom(projectString, "my-projects");
   }
   
-  function writeToDom(stringToPrint, divId){
-    var printDiv = document.getElementById(divId);
+  const writeToDom = (stringToPrint, divId) =>{
+    let printDiv = document.getElementById(divId);
     printDiv.innerHTML += stringToPrint;
   }
 createProjectCards(projects);
