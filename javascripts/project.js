@@ -3,8 +3,6 @@ const writeToDom = (stringToPrint, divId) =>{
     let printDiv = document.getElementById(divId);
     printDiv.innerHTML += stringToPrint;
   }
-// createProjectCards(projects);
-
 
   const createProjectCards = (projectArray) => {
     let projectString = "";
