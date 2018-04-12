@@ -7,7 +7,7 @@ const writeToDom = (stringToPrint, divId) =>{
   const createProjectCards = (projectArray) => {
     let projectString = "";
       for(let i = 0; i < projectArray.length; i++){
-          projectString += `<div id="card" class="col-md-4">`;
+          projectString += `<div id="card">`;
         //   projectString +=      `<h1>${projectArray[i].id}</h1>`;
           projectString +=      `<h3>${projectArray[i].title}</h3>`;
           projectString +=      `<h3><img id="project-image" src= "${projectArray[i].imageUrl}"</h3>`;

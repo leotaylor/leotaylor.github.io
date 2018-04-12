@@ -48,9 +48,15 @@ body {
     /* margin-left: 50px; */
 }
 
+#my-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #card{
-    width: 500px;
-    max-height: 750px;
+    width: 30%;
+    max-height: 700px;
     margin: 10px;
     border: solid 5px black;
     overflow: scroll;
@@ -59,7 +65,7 @@ body {
 
 #project-image {
     height: auto;
-    width: 95%;
+    width: 70%;
     border-radius: 50%;
     border-style: double;
     background-color: rgb(197, 175, 133);
