@@ -6,15 +6,17 @@ const writeToDom = (stringToPrint, divId) =>{
 
   const createBlogPosts = (blogArray) => {
     let blogString = "";
+    blogString += `<h1>BLOG</h1>`;
       for(let i = 0; i < blogArray.length; i++){
           blogString += `<div>`;
           blogString +=     `<h1 id='blogTitle'>${blogArray[i].title}</h1>`;
-          blogString +=     `<h4>${blogArray[i].date}</h4>`;
+          blogString +=     `<h4 id='blogDate'>${blogArray[i].date}</h4>`;
           blogString +=     `<p id='seperate'>${blogArray[i].post}<p>`;
           blogString += `</div>`;
       }
     writeToDom(blogString, "my-blogs");
   }
+
 
 function WTF(){
     console.log("ooops");
@@ -22,7 +24,7 @@ function WTF(){
 
 function executeFunction (){
     const data = JSON.parse(this.responseText);
-    createBlogPosts(data.blogs);
+    createBlogPosts(data.blogs.reverse());
 }
 
 const startApplication = () =>{
