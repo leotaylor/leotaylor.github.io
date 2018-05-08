@@ -4,15 +4,16 @@ body {
     padding: 1em;
     padding-bottom: 1.5em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
+    background-color: rgb(73, 73, 73);
 }
 /* Navigation Bar */
 .fixed-bar {
-    background-color: #a71414;
+    background-color: #2d6b6d;
     position: fixed;
     width: 100%;
     height: 2em;
-    opacity: 0.6;
+    opacity: 0.7;
     top: 0;
     left: 0;
 }
@@ -77,6 +78,9 @@ body {
     /* width: 75%; */
     /* margin: 100px 0 0 100px; */
     /* position: relative; */
+    /* background-image:  url(https://hdwallsource.com/img/2014/8/free-tennessee-wallpaper-33737-34497-hd-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 /* Footer */
@@ -86,10 +90,15 @@ body {
     left: 0;
     width: 100%;
     height: 1em;
-    background-color: #a71414;
-    opacity: .6;
+    /* background-color: #a71414; */
+    background-color: #2d6b6d;
+    opacity: .9;
 }
 /* ----------Blogs----------- */
+
+.blogs{
+    background-color: rgb(73, 73, 73);
+}
 
 .blogContainer{
     margin: auto;
@@ -99,25 +108,35 @@ body {
     margin-top: 15px;
     /* color: rgb(101, 180, 204); */
     background-color: rgb(154, 171, 189);
+    font-family: 'Roboto Slab', serif;
+    color: white;
 }
 
+/* .blogCard{
+    border: red 10px;
+} */
+
 #seperate{
-    box-shadow: 5px 5px 8px 5px #888888;
-    box-shadow: 0px 0px 5px 5px rgba(171,166,171,1);
+    /* box-shadow: 5px 5px 8px 5px #7c1e1e; */
+    box-shadow: 0px 0px 30px 5px rgb(6, 7, 92);
     padding: 5px;
-    background-color: rgb(236, 228, 198);
+    border-radius: 1%;
+    /* background-color: rgb(236, 228, 198); */
+    background-color: rgb(136, 136, 167);
     /* height: 300px; */
     /* overflow: scroll; */
     color: black;
-    margin-bottom: 80px;
-    width: 50%;
-    margin-left: 25%;
+    margin-bottom: 85px;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 20%;
 }
 
 #blogTitle{
     text-decoration: underline;
+    color: white;
 }
 
-.blogCard{
-    background-color: white;
+#blogDate{
+    color: white;
 }
