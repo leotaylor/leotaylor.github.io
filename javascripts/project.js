@@ -17,7 +17,7 @@ const writeToDom = (stringToPrint, divId) =>{
       }
     writeToDom(projectString, "my-projects");
   }
-  
+
 function WTF(){
     console.log("ooops");
 }

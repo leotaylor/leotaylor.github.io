@@ -4,49 +4,57 @@ body {
     padding: 1em;
     padding-bottom: 1.5em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* background-color: cornsilk; */
     background-color: rgb(73, 73, 73);
+    color: rgb(209, 224, 231);
 }
+
+.index {
+    margin-top: 20%;
+}
+
+#fakeNav{
+    background-color: black;
+    font-size: 20px;
+}
+
 /* Navigation Bar */
-.fixed-bar {
+.navbar {
     background-color: #2d6b6d;
     position: fixed;
     width: 100%;
-    height: 2em;
     opacity: 0.7;
     top: 0;
     left: 0;
 }
-.navbar {
-    display: flex;
-    justify-content: flex-end;
+
+.navbar-inverse .navbar-brand {
+    color: rgb(209, 224, 231);
 }
 
-.navbar a {
-    color: black;
-    font-size: 1.3em;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: rgb(11, 90, 37);
+    color: rgb(172, 209, 37);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(209, 224, 231);
     font-weight: bold;
-    margin-right: .5em;
-    padding: 0 .5em 0 .5em;
 }
 
-.navbar a:hover {
-    color: gold;
-    background-color: navy;
-    block-size: 1.55em;
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgb(172, 209, 37);
+    background-color: rgb(11, 90, 37);
 }
 
-.navbar a:active {
-    /* border-radius: 0 0 50% 50%;
-    height: 2.2em; */
+.navbar-inverse .navbar-nav>li>a:active{
     transform: scaleX(1.10);
-    /* replace with command to make grow in size on left and right*/
 }
 
 /* ---------Projects ------------- */
 
 .projects{
-    /* margin-left: 50px; */
+    margin-top: 25px;
+    color: #2d6b6d;
 }
 
 #my-projects{
@@ -74,13 +82,20 @@ body {
 }
 
 /* Index */
-.index {
-    /* width: 75%; */
-    /* margin: 100px 0 0 100px; */
-    /* position: relative; */
-    /* background-image:  url(https://hdwallsource.com/img/2014/8/free-tennessee-wallpaper-33737-34497-hd-wallpapers.jpg);
+/* .index {
+    width: 75%;
+    margin: 100px 0 0 100px;
+    position: relative;
+    background-image:  url(https://www.mypigeonforge.com/wp-content/uploads/2018/01/summer.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: contain;
+} */
+.pageNav {
+    list-style-type: none;
+}
+
+.pageNav a {
+    color: rgb(209, 224, 231);
 }
 
 /* Footer */
@@ -89,7 +104,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 1em;
+    height: 1.4em;
     /* background-color: #a71414; */
     background-color: #2d6b6d;
     opacity: .9;
@@ -105,11 +120,13 @@ body {
     width: 70%;
     border: 3px solid black;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 30px;
     /* color: rgb(101, 180, 204); */
-    background-color: rgb(154, 171, 189);
+    /* background-color: rgb(154, 171, 189); */
+    background-color: rgb(172, 209, 37);
     font-family: 'Roboto Slab', serif;
-    color: white;
+    /* color: rgb(209, 224, 231); */
+    color: black;
 }
 
 /* .blogCard{
@@ -122,21 +139,30 @@ body {
     padding: 5px;
     border-radius: 1%;
     /* background-color: rgb(236, 228, 198); */
-    background-color: rgb(136, 136, 167);
+    background-color: #2d6b6d;
     /* height: 300px; */
     /* overflow: scroll; */
-    color: black;
+    color: rgb(0, 0, 0);
     margin-bottom: 85px;
     margin-top: 30px;
     width: 60%;
     margin-left: 20%;
+    font-size: 18px;
 }
 
 #blogTitle{
     text-decoration: underline;
-    color: white;
+    /* color: rgb(209, 224, 231); */
+    color: black;
 }
 
 #blogDate{
-    color: white;
+    /* color: rgb(209, 224, 231); */
+    color: black;
+}
+
+.fun-fact{
+    background-image: url(https://flyawaysimulation.com/images/downloadshots/19306-citabrian53758zip-3-citabria-n53758-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
