@@ -24,8 +24,9 @@ body {
 }
 
 #fakeNav:hover{
-    opacity: 1;
+    /* opacity: 1; */
     transition: .9s ease-in-out;
+    animation: pulse 3s infinite;
 }
 
 /* Navigation Bar */
@@ -44,6 +45,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     transition: .999s ease-in-out;
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        opacity: .4;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .4;
+    }
 }
 
 .navbar-inverse .navbar-brand {
