@@ -9,12 +9,23 @@ body {
 }
 
 .index {
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
 #fakeNav{
     background-color: black;
     font-size: 20px;
+    margin: 0 -30px;
+    opacity: .4;
+    background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=281dd3518c2edb68c31b19bbcb624a0f&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity .9s ease-in-out;
+}
+
+#fakeNav:hover{
+    opacity: 1;
+    transition: .9s ease-in-out;
 }
 
 /* Navigation Bar */
@@ -25,6 +36,14 @@ body {
     opacity: 0.7;
     top: 0;
     left: 0;
+}
+
+.index .navbar:hover{
+    opacity: 1;
+    background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=281dd3518c2edb68c31b19bbcb624a0f&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .999s ease-in-out;
 }
 
 .navbar-inverse .navbar-brand {
@@ -90,6 +109,14 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 } */
+
+.index {
+    background-image: url(https://images.unsplash.com/photo-1517407646106-25124bdfab79?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aa95ca565888d6c268dff1f6ff9676d9&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .pageNav {
     list-style-type: none;
 }
@@ -165,4 +192,5 @@ body {
     background-image: url(https://flyawaysimulation.com/images/downloadshots/19306-citabrian53758zip-3-citabria-n53758-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
