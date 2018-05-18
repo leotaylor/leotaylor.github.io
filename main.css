@@ -12,6 +12,15 @@ body {
     margin-top: 25%;
 }
 
+.index h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(172, 209, 37), rgb(3, 20, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #fakeNav{
     background-color: black;
     font-size: 20px;
@@ -115,17 +124,10 @@ body {
 }
 
 /* Index */
-/* .index {
-    width: 75%;
-    margin: 100px 0 0 100px;
-    position: relative;
-    background-image:  url(https://www.mypigeonforge.com/wp-content/uploads/2018/01/summer.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
 
 .index {
-    background-image: url(https://images.unsplash.com/photo-1517407646106-25124bdfab79?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aa95ca565888d6c268dff1f6ff9676d9&auto=format&fit=crop&w=800&q=60);
+    /* background-image: url(https://images.unsplash.com/photo-1460910996094-e71452a43cb0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=acb3c0eaec1695200a469aa0b6250dfb&auto=format&fit=crop&w=1553&q=80); */
+    background-image: url('../images/stars.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -150,6 +152,13 @@ body {
     background-color: #2d6b6d;
     opacity: .9;
 }
+
+.index .staydown{
+    background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=281dd3518c2edb68c31b19bbcb624a0f&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
 /* ----------Blogs----------- */
 
 .blogs{
@@ -169,10 +178,6 @@ body {
     /* color: rgb(209, 224, 231); */
     color: black;
 }
-
-/* .blogCard{
-    border: red 10px;
-} */
 
 #seperate{
     /* box-shadow: 5px 5px 8px 5px #7c1e1e; */
