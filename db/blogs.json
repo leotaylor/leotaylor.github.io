@@ -59,6 +59,12 @@
             "title": "jQuery",
             "date": "5/14/2018",
             "post": "The addition of jQuery to my web-development toolbox has proven to be a major aid in my JavaScript journey. I’m happy that I have learned how to code without, but I’m very relieved to have such a powerful and easy-to-use way to work with JavaScript. I am really excited about the idea of learning more about jQuery in class, as it has made many aspects of JavaScript easier to handle. I would love to see some more exercises geared toward learning jQuery. <br><br>I find jQuery particularly useful in being able to grab dom elements, and style those elements. It has also made it easier to access JSON data. Adding event listeners is generally easier with jQuery, especially if the event is based on a button click. It gets slightly more complicated when wanting to click on a particular div, but in general it is still not too difficult. I have enjoyed playing around with .html(), .text(), and .val() as a way of accessing the data contained within an element."
+        },
+        {
+            "id": "blog10",
+            "title": "Promises, I want to love you.",
+            "date": "5/20/2018",
+            "post": "So, promises are meant to be a way of managing asynchronous operations. When using a promise it will go through 2 of 3 different states; pending and resolved or rejected. Promises typically return some data and THEN does something with that data using the .then() method. <br><br> This is my current understanding of promises. This seems to make sense, it really seems simple. Yet, the confusion is abundant. We are currently learning how to write promises and are getting used to the syntax and how they function. But at the moment, I have not been able to put two and two together in regards to what I understand they are used for and how we have used them so far in class. I imagine that is fine for the time being, as we are taking baby steps toward understanding promises. I look forward to getting a better understanding of the value and use of promises soon, but at the same time dread it. While it seems simple, it feels complicated. But I am hoping that is a temporary feeling. <br><br> I am still a little confused about when to use the chain method versus promise.all, and even if/when I should use the “pyramid of doom.” While I have successfully used both methods in recent assignments, I don’t fully understand what is happening within the function. Promises, I really want to love you. "
         }
     ]
 }
