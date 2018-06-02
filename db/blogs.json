@@ -71,6 +71,12 @@
             "title": "API's",
             "date": "5/28/2018",
             "post": "Working with API’s, so far, has been pretty simple and straightforward. However, from what I can tell all web api’s are not created equal and as a result requires the reading of documentation in order to ensure everything works the way you expect. Even then, I’m sure there are be surprises. <br><br> It is a little stressful at first thinking about keeping the API key hidden because of the possible security implications associated with having your API visible. Fortunately, keeping it hidden has proven to not be difficult. <br><br> The only problem I had with the first API assignment (local weather) was how to only print the 5 day forecast instead of every three hours. But even that solution was simple once I got to writing the domstring and used a for loop to get one out of every 8 results. <br><br> I am sure working with API’s can and will get more complicated and I look forward to learning about that. I am also looking forward to writing my own API."
+        },
+        {
+            "id": "blog13",
+            "title": "Firebase",
+            "date": "6/2/2018",
+            "post": "I am excited that we are getting a glimpse into the realm of back end technologies. Firebase seems like an easy to use, accessible first step into dealing with the backend. It is like an API, server, and database all rolled into one easy to use and free service. I haven’t gotten to deep into the nuts and bolts of firebase, but so far I like it. Firebase has also provided us good practice using CRUD. Create, Read, Update, Delete. There is a lot of code and promises that go into crud, and I hope we use it a lot so that I can get more accustomed to going through the steps of crud as well as working with Firebase. <br><br> My one concern with firebase is that we were told that we were using it in a way that most people never would. That is concerning to me as far as using it for real world applications. However, I am confident that there is good logic behind the decision to use Firebase the way we currently are. But I hope we can get a good idea of how it is commonly used in the work environment. "
         }
     ]
 }
