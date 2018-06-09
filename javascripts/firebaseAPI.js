@@ -31,7 +31,7 @@ const getProjectsData = () => {
     const projectArray = [];
     $.ajax({
       method: 'GET',
-      url: `${firebaseconfig.databaseURL}/projects.json`,
+      url: `${firebaseconfig.databaseURL}/projects/projects.json`,
     })
       .done((projectObject) => {
         if (projectObject !== null) {
