@@ -6,11 +6,11 @@ const createProjectCards = (projectArray) => {
   let projectString = '';
   for (let i = 0; i < projectArray.length; i++) {
     projectString += `<div id="card">`;
-    //   projectString +=      `<h1>${projectArray[i].id}</h1>`;
     projectString +=      `<h3>${projectArray[i].title}</h3>`;
     projectString +=      `<h3><img id="project-image" src= "${projectArray[i].imageUrl}"</h3>`;
     projectString +=      `<h3>${projectArray[i].description}</h3>`;
-    projectString +=      `<h3>Check it out <a href="${projectArray[i].githubUrl}"> here!</a></h3>`;
+    projectString +=      `<h3>Check it out <a href="${projectArray[i].url}"> here!</a></h3>`;
+    projectString +=      `<h3>GitHub Repository: <a href="${projectArray[i].github}">GITHUB</a></h3>`;
     projectString += `</div>`;
   }
   printProject(projectString);
