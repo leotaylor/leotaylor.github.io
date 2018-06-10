@@ -8,7 +8,8 @@ const createProjectCards = (projectArray) => {
     projectString += `<div id="card">`;
     projectString +=      `<h3>${projectArray[i].title}</h3>`;
     projectString +=      `<h3><img id="project-image" src= "${projectArray[i].imageUrl}"</h3>`;
-    projectString +=      `<h3>${projectArray[i].description}</h3>`;
+    projectString +=      `<h5>${projectArray[i].description}</h5>`;
+    projectString +=      `<h3>Technologies Used:</h3> <h5>${projectArray[i].technologiesUsed}</h5>`;
     projectString +=      `<h3>Check it out <a href="${projectArray[i].url}"> here!</a></h3>`;
     projectString +=      `<h3>GitHub Repository: <a href="${projectArray[i].github}">GITHUB</a></h3>`;
     projectString += `</div>`;
