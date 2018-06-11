@@ -77,6 +77,12 @@
             "title": "Firebase",
             "date": "6/2/2018",
             "post": "I am excited that we are getting a glimpse into the realm of back end technologies. Firebase seems like an easy to use, accessible first step into dealing with the backend. It is like an API, server, and database all rolled into one easy to use and free service. I haven’t gotten to deep into the nuts and bolts of firebase, but so far I like it. Firebase has also provided us good practice using CRUD. Create, Read, Update, Delete. There is a lot of code and promises that go into crud, and I hope we use it a lot so that I can get more accustomed to going through the steps of crud as well as working with Firebase. <br><br> My one concern with firebase is that we were told that we were using it in a way that most people never would. That is concerning to me as far as using it for real world applications. However, I am confident that there is good logic behind the decision to use Firebase the way we currently are. But I hope we can get a good idea of how it is commonly used in the work environment. "
+        },
+        {
+            "id": "blog14",
+            "title": "Firebase Auth",
+            "date": "6/11/2018",
+            "post": "Setting up an authorization feature through firebase was a lot more simple than I had imagined. The important firebase methods to use within the Javascript files are firebase.auth().createUserWithEmailAndPassword(email, password), firebase.auth().signInWithEmailAndPassword(email, password), fireabase.auth().signout(), firebase.auth().onAuthStateChanged(user). <br><br> These allow the user to create and account, signing with the account, signout, and the last keeps track of whether or not a user is signed in or not and can use an if else statement to tell the browser what to do depending on if a user is logged in or not. <br><br> In addition to using these methods, one needs to make an account on firebase and link it to the project so that a realtime database can be created and used alongside with the website. Firebase at first glance felt a little overwhelming, but once we got into it, it turned out to be pretty simple and easy to work with. I’m glad that we will continue working with firebase on future projects so that I can continue learning how to work with firebase while also keeping up and reinforcing what I have learned so far through repetition. "
         }
     ]
 }
