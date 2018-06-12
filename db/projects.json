@@ -11,13 +11,13 @@
             "github": "https://github.com/leotaylor/local-weather"
         },
         {
-            "title": "Local Weather",
-            "imageUrl": "https://raw.githubusercontent.com/leotaylor/local-weather/master/snaps/Screen%20Shot%202018-06-06%20at%207.42.19%20PM.png",
-            "description": "Find your current weather and five day forecast for any given zipcode. Also, save your favorite forecasts with the option to mark any as scary or delete one.",
-            "technologiesUsed": "jQuery, AJAX, crud, authentication, JSON, promises, Task Automation, CSS Animations, Github, Browserify, esLint, api's, firebase",
+            "title": "Ex-Tracker",
+            "imageUrl": "https://raw.githubusercontent.com/leotaylor/ex-tracker/master/snaps/pic1.png",
+            "description": "Assuming user wants to avoid his/her exes, user can keep track of exes frequented locations and times. Creepy? Yes. Practical? Maybe. Funny? Yes.",
+            "technologiesUsed": "promises, jQuery, JSON, Task Automation, CSS Animations, Github, Browserify, ,grunt, esLint, bootstrap",
             "available": true,
-            "url": "https://local-weather-b5354.firebaseapp.com/",
-            "github": "https://github.com/leotaylor/local-weather"
+            "url": "https://ex-tracker-ef0ba.firebaseapp.com/",
+            "github": "https://github.com/leotaylor/ex-tracker"
         },
         {
             "title": "Local Weather",
