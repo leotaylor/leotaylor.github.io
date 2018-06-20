@@ -147,10 +147,19 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 1.4em;
+    height: 2em;
     /* background-color: #a71414; */
     background-color: #2d6b6d;
     opacity: .9;
+}
+
+.footIcons{
+    margin-top: 3px;
+}
+
+.footIcons a{
+    color: white;
+    text-decoration: none;
 }
 
 .index .staydown{
