@@ -1,0 +1,56 @@
+{
+  "tech": [
+    {
+      "image": "./images/angular.png",
+      "desc": "Angular"
+    },
+    {
+      "image": "./images/bootstrap-logo.png",
+      "desc": "Bootstrap"
+    },
+    {
+      "image": "./images/browserify.png",
+      "desc": "Browserify"
+    },
+    {
+      "image": "./images/css3.png",
+      "desc": "CSS3"
+    },
+    {
+      "image": "./images/firebase.png",
+      "desc": "Firebase"
+    },
+    {
+      "image": "./images/github.png",
+      "desc": "Github"
+    },
+    {
+      "image": "./images/grunt-logo.png",
+      "desc": "Grunt"
+    },
+    {
+      "image": "./images/html.png",
+      "desc": "HTML5"
+    },
+    {
+      "image": "./images/java.png",
+      "desc": "JavaScript"
+    },
+    {
+      "image": "./images/jquery.png",
+      "desc": "jQuery"
+    },
+    {
+      "image": "./images/npm.png",
+      "desc": "NPM"
+    },
+    {
+      "image": "./images/react.png",
+      "desc": "React"
+    },
+    {
+      "image": "./images/sass.png",
+      "desc": "Sass"
+    }
+  ]
+}

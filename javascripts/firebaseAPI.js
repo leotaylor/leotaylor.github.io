@@ -48,8 +48,31 @@ const getProjectsData = () => {
   });
 };
 
+const getTechData = () => {
+  return new Promise((resolve, reject) => {
+    const techArray = [];
+    $.ajax({
+      method: 'GET',
+      url: `${firebaseconfig.databaseURL}/tech/tech.json`,
+    })
+      .done((techObject) => {
+        if (techObject !== null) {
+          Object.keys(techObject). forEach((fbKey) => {
+            techObject[fbKey].id = fbKey;
+            techArray.push(techObject[fbKey]);
+          });
+        }
+        resolve(techArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 module.exports = {
   setConfig,
   getBlogData,
   getProjectsData,
+  getTechData,
 };

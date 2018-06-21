@@ -20,6 +20,7 @@ const retrieveKeys = () => {
       firebase.initializeApp(results.firebase);
       events.getBlogsEvent();
       events.getProjectsEvent();
+      events.getTechEvent();
     })
     .catch((err) => {
       console.error('no keys:', err);
