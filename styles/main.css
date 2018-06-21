@@ -222,3 +222,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.techImage img{
+    height: 100px;
+    margin-top: 15%;
+}

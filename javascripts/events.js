@@ -1,6 +1,7 @@
 const firebaseAPI = require('./firebaseAPI');
 const blogsDom = require('./blogsDom');
 const projectDom = require('./projectDom');
+const techDom = require('./proffesionalHistoryDom');
 
 const getBlogsEvent = () => {
   firebaseAPI.getBlogData()
@@ -22,7 +23,18 @@ const getProjectsEvent = () => {
     });
 };
 
+const getTechEvent = () => {
+  firebaseAPI.getTechData()
+    .then((newTechArray) => {
+      techDom.techUsed(newTechArray);
+    })
+    .catch((error) => {
+      console.error('error in retrieving projects:', error);
+    });
+};
+
 module.exports = {
   getBlogsEvent,
   getProjectsEvent,
+  getTechEvent,
 };
