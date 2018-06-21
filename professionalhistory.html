@@ -35,7 +35,47 @@
             </div><!-- /.container-fluid -->
           </nav>
           <h1>Professional History</h1>
-          <div id="techUsed" class="text-center"></div>
+
+          <div id="accordion" class="panel-group">
+              <div class="panel panel-default" id="headOne">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Objective</a>
+                      </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse">
+                      <div class="panel-body">
+                          <p>Words Here</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Education</a>
+                      </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                      <div class="panel-body">
+                          <p>More Words Here</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Work History</a>
+                      </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                          <p>Some More Words Here</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        <div id="techUsed" class="text-center"></div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>

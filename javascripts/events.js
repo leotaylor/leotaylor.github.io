@@ -33,8 +33,16 @@ const getTechEvent = () => {
     });
 };
 
+const clickEvents = () => {
+  $(document).on('click','#headOne', (e) => {
+    e.preventDefault();
+    $('.collapse').collapse('toggle');
+  });
+};
+
 module.exports = {
   getBlogsEvent,
   getProjectsEvent,
   getTechEvent,
+  clickEvents,
 };
