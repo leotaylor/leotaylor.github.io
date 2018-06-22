@@ -42,8 +42,8 @@ const clickEvents = () => {
 };
 
 const proScroll = () => {
-  $(window).on('scroll', 'html', () => {
-    const fromTopPx = 50; // distance to trigger
+  $(window).on('scroll', () => {
+    const fromTopPx = 3475;
     const scrolledFromtop = $(window).scrollTop();
     if (scrolledFromtop > fromTopPx) {
       $('.proHis').addClass('scrolled');
