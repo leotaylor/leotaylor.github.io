@@ -49,6 +49,12 @@ body {
     z-index: 1;
 }
 
+.index .navbar {
+    background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=281dd3518c2edb68c31b19bbcb624a0f&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .index .navbar:hover{
     opacity: 1;
     background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=281dd3518c2edb68c31b19bbcb624a0f&auto=format&fit=crop&w=1650&q=80);
@@ -229,6 +235,56 @@ body {
     margin-top: 15%;
 }
 
+.techImage h2 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 /* .techImage {
     z-index: -1;
 } */
+
+body {
+    opacity: 1;
+    transition: 3s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.proHis {
+    background-image: url(https://images.unsplash.com/photo-1522767559009-7611e4da0a69?ixlib=rb-0.3.5&s=fe1d042a79a04b97fc3f557c9fed4174&auto=format&fit=crop&w=1525&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proHis {
+    background-image: url(https://images.unsplash.com/photo-1522767559009-7611e4da0a69?ixlib=rb-0.3.5&s=fe1d042a79a04b97fc3f557c9fed4174&auto=format&fit=crop&w=1525&q=80);
+}
+
+.proHis.scrolled {
+    background-image: url(https://images.unsplash.com/photo-1493693108824-89c9e9174340?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0928b85a747b34693df4a14be1afce03&auto=format&fit=crop&w=800&q=60);
+}
+
+.space {
+    background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=281dd3518c2edb68c31b19bbcb624a0f&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sky {
+    background-image: url(https://images.unsplash.com/photo-1487217874268-e63b3cf3e44b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20756419785ee8400da5dc35de493052&auto=format&fit=crop&w=2755&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grass {
+    background-image: url(https://images.unsplash.com/photo-1415562689440-4b13ae5da0eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=714225fe52d8bc904d2340db9d592173&auto=format&fit=crop&w=2086&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel-title {
+    color: white;
+}

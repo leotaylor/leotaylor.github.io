@@ -38,11 +38,29 @@ const clickEvents = () => {
     e.preventDefault();
     $('.collapse').collapse('toggle');
   });
+  $('body').removeClass('fade-out');
+};
+
+const proScroll = () => {
+  $(window).on('scroll', 'html', () => {
+    const fromTopPx = 50; // distance to trigger
+    const scrolledFromtop = $(window).scrollTop();
+    if (scrolledFromtop > fromTopPx) {
+      $('.proHis').addClass('scrolled');
+    } else {
+      $('.proHis').removeClass('scrolled');
+    };
+  });
+};
+
+const initializer = () => {
+  clickEvents();
+  proScroll();
 };
 
 module.exports = {
   getBlogsEvent,
   getProjectsEvent,
   getTechEvent,
-  clickEvents,
+  initializer,
 };
