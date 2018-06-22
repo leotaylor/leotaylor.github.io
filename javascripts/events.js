@@ -33,8 +33,34 @@ const getTechEvent = () => {
     });
 };
 
+const clickEvents = () => {
+  $(document).on('click','#headOne', (e) => {
+    e.preventDefault();
+    $('.collapse').collapse('toggle');
+  });
+  $('body').removeClass('fade-out');
+};
+
+const proScroll = () => {
+  $(window).on('scroll', () => {
+    const fromTopPx = 3475;
+    const scrolledFromtop = $(window).scrollTop();
+    if (scrolledFromtop > fromTopPx) {
+      $('.proHis').addClass('scrolled');
+    } else {
+      $('.proHis').removeClass('scrolled');
+    };
+  });
+};
+
+const initializer = () => {
+  clickEvents();
+  proScroll();
+};
+
 module.exports = {
   getBlogsEvent,
   getProjectsEvent,
   getTechEvent,
+  initializer,
 };
