@@ -43,12 +43,14 @@ const clickEvents = () => {
 
 const proScroll = () => {
   $(window).on('scroll', () => {
-    const fromTopPx = 3475;
+    const fromTopPx = 3100;
     const scrolledFromtop = $(window).scrollTop();
     if (scrolledFromtop > fromTopPx) {
-      $('.proHis').addClass('scrolled');
+      // $('.proHis').addClass('scrolled');
+      $('#funDiv').fadeIn(1700).removeClass('hide');
     } else {
-      $('.proHis').removeClass('scrolled');
+      // $('.proHis').removeClass('scrolled');
+      $('#funDiv').fadeOut().addClass('hide');
     };
   });
 };
