@@ -8,6 +8,15 @@ body {
     color: rgb(209, 224, 231);
 }
 
+body {
+    opacity: 1;
+    transition: 3s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 .index {
     margin-top: 25%;
 }
@@ -188,22 +197,16 @@ body {
     border: 3px solid black;
     padding: 10px;
     margin-top: 30px;
-    /* color: rgb(101, 180, 204); */
-    /* background-color: rgb(154, 171, 189); */
     background-color: rgb(172, 209, 37);
     font-family: 'Roboto Slab', serif;
-    /* color: rgb(209, 224, 231); */
     color: black;
 }
 
 #seperate{
-    /* box-shadow: 5px 5px 8px 5px #7c1e1e; */
     box-shadow: 0px 0px 30px 5px rgb(6, 7, 92);
     padding: 5px;
     border-radius: 1%;
-    /* background-color: rgb(236, 228, 198); */
     background-color: #2d6b6d;
-    /* height: 300px; */
     /* overflow: scroll; */
     color: rgb(0, 0, 0);
     margin-bottom: 85px;
@@ -224,62 +227,29 @@ body {
     color: black;
 }
 
-.fun-fact{
-    background-image: url(https://flyawaysimulation.com/images/downloadshots/19306-citabrian53758zip-3-citabria-n53758-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#techUsed {
-    margin-bottom: 200px;
-}
-
-#proj {
-    padding: 30px;
-    margin-bottom: 700px;
-}
-
-#funDiv {
-    margin-top: 200px;
-    margin-bottom: 500px;
-}
-
-.techImage img{
-    height: 100px;
-    margin-top: 15%;
-}
-
-.techImage h2 {
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-
-/* .techImage {
-    z-index: -1;
-} */
-
-body {
-    opacity: 1;
-    transition: 3s opacity;
-}
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
-
-.proHis {
-    /* background-image: url(https://images.unsplash.com/photo-1522767559009-7611e4da0a69?ixlib=rb-0.3.5&s=fe1d042a79a04b97fc3f557c9fed4174&auto=format&fit=crop&w=1525&q=80); */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* Professional History */
 
 .proHis {
     background-image: url(https://images.unsplash.com/photo-1522767559009-7611e4da0a69?ixlib=rb-0.3.5&s=fe1d042a79a04b97fc3f557c9fed4174&auto=format&fit=crop&w=1525&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 70px;
+    padding: 0;
 }
 
-.proHis.scrolled {
-    background-image: url(https://iso.500px.com/wp-content/uploads/2016/07/stock-photo-157388837-1.jpg);
+/* Panel */
+
+.panel-group {
+    margin: 3% .5%;
+    padding-right: 12%;
+    padding-left: 11%;
+}
+
+.panel-title {
+    color: white;
 }
 
 .space {
@@ -300,6 +270,33 @@ body.fade-out {
     background-size: cover;
 }
 
-.panel-title {
-    color: white;
+/* End Panel */
+
+.techImage img{
+    height: 100px;
+    margin-top: 15%;
 }
+
+.techImage h2 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#techUsed {
+    margin-bottom: 200px;
+}
+
+#proj {
+    padding: 30px;
+    margin-bottom: 700px;
+}
+
+#funDiv {
+    padding-top: 400px;
+    padding-bottom: 500px;
+    background-image: url(https://iso.500px.com/wp-content/uploads/2016/07/stock-photo-157388837-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Professional History End */
