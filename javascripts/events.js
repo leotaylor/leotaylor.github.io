@@ -33,11 +33,7 @@ const getTechEvent = () => {
     });
 };
 
-const clickEvents = () => {
-  $(document).on('click','#headOne', (e) => {
-    e.preventDefault();
-    $('.collapse').collapse('toggle');
-  });
+const fading = () => {
   $('body').removeClass('fade-out');
 };
 
@@ -55,9 +51,14 @@ const proScroll = () => {
   });
 };
 
+const clickEvents = () => {
+  $('.collapse').collapse();
+};
+
 const initializer = () => {
-  clickEvents();
+  fading();
   proScroll();
+  clickEvents();
 };
 
 module.exports = {
