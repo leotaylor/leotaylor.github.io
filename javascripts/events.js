@@ -51,8 +51,22 @@ const proScroll = () => {
   });
 };
 
+// const clickEvents = () => {
+//   $(document).on('click', '.panel-title', () => {
+//     $('.collapse').collapse('toggle');
+//   });
+// };
+
 const clickEvents = () => {
-  $('.collapse').collapse();
+  $(document).on('click', '.ones', () => {
+    $('.one').toggle();
+  });
+  $(document).on('click', '.twos', () => {
+    $('.two').toggle();
+  });
+  $(document).on('click', '.threes', () => {
+    $('.three').toggle();
+  });
 };
 
 const initializer = () => {
