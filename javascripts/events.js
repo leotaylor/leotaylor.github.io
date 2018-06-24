@@ -43,7 +43,7 @@ const proScroll = () => {
     const scrolledFromtop = $(window).scrollTop();
     if (scrolledFromtop > fromTopPx) {
       // $('.proHis').addClass('scrolled');
-      $('#funDiv').fadeIn(1700).removeClass('hide');
+      $('#funDiv').fadeIn(2000).removeClass('hide');
     } else {
       // $('.proHis').removeClass('scrolled');
       $('#funDiv').fadeOut().addClass('hide');
@@ -52,7 +52,15 @@ const proScroll = () => {
 };
 
 const clickEvents = () => {
-  $('.collapse').collapse();
+  $(document).on('click', '.ones', () => {
+    $('.one').toggle();
+  });
+  $(document).on('click', '.twos', () => {
+    $('.two').toggle();
+  });
+  $(document).on('click', '.threes', () => {
+    $('.three').toggle();
+  });
 };
 
 const initializer = () => {
