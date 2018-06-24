@@ -43,19 +43,13 @@ const proScroll = () => {
     const scrolledFromtop = $(window).scrollTop();
     if (scrolledFromtop > fromTopPx) {
       // $('.proHis').addClass('scrolled');
-      $('#funDiv').fadeIn(1700).removeClass('hide');
+      $('#funDiv').fadeIn(2000).removeClass('hide');
     } else {
       // $('.proHis').removeClass('scrolled');
       $('#funDiv').fadeOut().addClass('hide');
     };
   });
 };
-
-// const clickEvents = () => {
-//   $(document).on('click', '.panel-title', () => {
-//     $('.collapse').collapse('toggle');
-//   });
-// };
 
 const clickEvents = () => {
   $(document).on('click', '.ones', () => {
