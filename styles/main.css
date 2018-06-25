@@ -290,16 +290,20 @@ body.fade-out {
 
 #proj {
     padding: 30px;
-    margin-bottom: 700px;
+    margin-bottom: 300px;
 }
 
 #funDiv {
-    padding-top: 400px;
-    padding-bottom: 500px;
-    background-image: url(https://iso.500px.com/wp-content/uploads/2016/07/stock-photo-157388837-1.jpg);
+    padding-top: 300px;
+    padding-bottom: 400px;
+    /* background-image: url(https://iso.500px.com/wp-content/uploads/2016/07/stock-photo-157388837-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+}
+
+#funDiv img {
+    height: max-content;
 }
 
 #drumDiv {
@@ -309,7 +313,6 @@ body.fade-out {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
 }
 
 /* Professional History End */

@@ -39,11 +39,11 @@ const fading = () => {
 
 const proScroll = () => {
   $(window).on('scroll', () => {
-    const fromTopPx = 3100;
+    const fromTopPx = 1800;
     const scrolledFromtop = $(window).scrollTop();
     if (scrolledFromtop > fromTopPx) {
       // $('.proHis').addClass('scrolled');
-      $('#funDiv').fadeIn(2000).removeClass('hide');
+      $('#funDiv').fadeIn(3500).removeClass('hide');
     } else {
       // $('.proHis').removeClass('scrolled');
       $('#funDiv').fadeOut().addClass('hide');
@@ -63,10 +63,30 @@ const clickEvents = () => {
   });
 };
 
+const carousel = () => {
+  $(document).ready = (() => {
+    $('#carousel-example-generic').carousel();
+
+    $('.item1').click = (() => {
+      $('#carousel-example-generic').carousel(0);
+    });
+    $('.item2').click = (() => {
+      $('#carousel-example-generic').carousel(1);
+    });
+    $('.left').click = (() => {
+      $('#carousel-example-generic').carousel('prev');
+    });
+    $('.right').click = (() => {
+      $('#carousel-example-generic').carousel('next');
+    });
+  });
+};
+
 const initializer = () => {
   fading();
   proScroll();
   clickEvents();
+  carousel();
 };
 
 module.exports = {
