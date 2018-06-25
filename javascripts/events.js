@@ -75,6 +75,7 @@ const carousel = () => {
     });
     $('.left').click = (() => {
       $('#carousel-example-generic').carousel('prev');
+      console.log('something');
     });
     $('.right').click = (() => {
       $('#carousel-example-generic').carousel('next');
