@@ -37,15 +37,25 @@ const fading = () => {
   $('body').removeClass('fade-out');
 };
 
+// const proScroll = () => {
+//   $(window).on('scroll', () => {
+//     const fromTopPx = 1800;
+//     const scrolledFromtop = $(window).scrollTop();
+//     if (scrolledFromtop > fromTopPx) {
+//       // $('.proHis').addClass('scrolled');
+//       $('#funDiv').fadeIn(3500).removeClass('hide');
+//     } else {
+//       // $('.proHis').removeClass('scrolled');
+//       $('#funDiv').fadeOut().addClass('hide');
+//     };
+//   });
+// };
+
 const proScroll = () => {
-  $(window).on('scroll', () => {
-    const fromTopPx = 1800;
-    const scrolledFromtop = $(window).scrollTop();
-    if (scrolledFromtop > fromTopPx) {
-      // $('.proHis').addClass('scrolled');
-      $('#funDiv').fadeIn(3500).removeClass('hide');
+  $(window).bind('scroll', () => {
+    if ($(window).scrollTop() >= $('#proj').offset().top + $('#proj').outerHeight() - window.innerHeight) {
+      $('#funDiv').fadeIn(1500).removeClass('hide');
     } else {
-      // $('.proHis').removeClass('scrolled');
       $('#funDiv').fadeOut().addClass('hide');
     };
   });
@@ -60,6 +70,9 @@ const clickEvents = () => {
   });
   $(document).on('click', '.threes', () => {
     $('.three').toggle();
+  });
+  $(document).on('click', '#clickFun', () => {
+    $('#funDiv').fadeIn(1500).removeClass('hide');
   });
 };
 
