@@ -1,10 +1,6 @@
 {
   "tech": [
     {
-      "image": "./images/angular.png",
-      "desc": "Angular"
-    },
-    {
       "image": "./images/bootstrap-logo.png",
       "desc": "Bootstrap"
     },
@@ -15,6 +11,10 @@
     {
       "image": "./images/css3.png",
       "desc": "CSS3"
+    },
+    {
+      "image": "./images/eslint.svg.png",
+      "desc": "ESlint"
     },
     {
       "image": "./images/firebase.png",
