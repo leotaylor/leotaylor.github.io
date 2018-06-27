@@ -72,7 +72,7 @@ const clickEvents = () => {
     $('.three').toggle();
   });
   $(document).on('click', '#clickFun', () => {
-    $('#funDiv').fadeIn(1500).removeClass('hide');
+    $('#funFacts').fadeIn(1500).removeClass('hide');
   });
 };
 
