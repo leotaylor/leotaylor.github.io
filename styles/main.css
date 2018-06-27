@@ -290,17 +290,16 @@ body.fade-out {
 
 #proj {
     padding: 30px 0;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
-#funDiv {
-    padding-top: 300px;
-    padding-bottom: 400px;
+/* #funDiv { */
+    /* padding-bottom: 200px; */
     /* background-image: url(https://iso.500px.com/wp-content/uploads/2016/07/stock-photo-157388837-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; */
-}
+/* } */
 
 #funDiv img {
     height: 70em;
@@ -327,5 +326,10 @@ body.fade-out {
     background-size: cover;
     background-attachment: fixed;
 } */
+
+#contact {
+    margin: 300px 0;
+    background-color: #2d6b6d;
+}
 
 /* Professional History End */
