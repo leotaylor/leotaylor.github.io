@@ -41,6 +41,10 @@
       "desc": "jQuery"
     },
     {
+      "image": "./images/json.png",
+      "desc": "JSON"
+    },
+    {
       "image": "./images/npm.png",
       "desc": "NPM"
     },
