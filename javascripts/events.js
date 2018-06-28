@@ -71,9 +71,9 @@ const clickEvents = () => {
   $(document).on('click', '.threes', () => {
     $('.three').toggle();
   });
-  $(document).on('click', '#clickFun', () => {
-    $('#funFacts').fadeIn(1500).removeClass('hide');
-  });
+  // $(document).on('click', '#clickFun', () => {
+  //   $('#funFacts').fadeIn(1500).removeClass('hide');
+  // });
 };
 
 const carousel = () => {
@@ -96,9 +96,14 @@ const carousel = () => {
   });
 };
 
+const scrollSpy = () => {
+  $('body').scrollspy({ target: '#bs-example-navbar-collapse-1', });
+};
+
 const initializer = () => {
   fading();
   proScroll();
+  scrollSpy();
   clickEvents();
   carousel();
 };

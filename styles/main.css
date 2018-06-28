@@ -188,6 +188,10 @@ body.fade-out {
 
 .blogs{
     background-color: rgb(73, 73, 73);
+    background-image: url(https://images.unsplash.com/photo-1456154875099-97a3a56074d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca30f5f6483a9f52e12246ae395ef9b8&auto=format&fit=crop&w=2689&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blogContainer{
@@ -229,14 +233,21 @@ body.fade-out {
 /* Professional History */
 
 .proHis {
-    background-image: url(https://images.unsplash.com/photo-1522767559009-7611e4da0a69?ixlib=rb-0.3.5&s=fe1d042a79a04b97fc3f557c9fed4174&auto=format&fit=crop&w=1525&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1522767559009-7611e4da0a69?ixlib=rb-0.3.5&s=fe1d042a79a04b97fc3f557c9fed4174&auto=format&fit=crop&w=1525&q=80); */
+    /* background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f6e5055d9ad1d603fd364c11823d026&auto=format&fit=crop&w=1952&q=80); */
+    /* background-image: url(https://images.unsplash.com/photo-1475139441338-693e7dbe20b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=daeeb76a6de2ee2f5590609a67bd60a3&auto=format&fit=crop&w=1950&q=80); */
+    background-image: url(https://images.unsplash.com/photo-1456154875099-97a3a56074d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca30f5f6483a9f52e12246ae395ef9b8&auto=format&fit=crop&w=2689&q=80);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 70px;
-    padding: 0;
+    /* padding-top: 70px; */
+    padding: 70px 0 0 0;
+}
+
+.proHis body {
+    position: relative;
 }
 
 /* Panel */
@@ -290,7 +301,7 @@ body.fade-out {
 
 #proj {
     padding: 30px 0;
-    margin-bottom: 400px;
+    padding-bottom: 400px;
 }
 
 /* #funDiv { */
@@ -300,6 +311,10 @@ body.fade-out {
     background-size: cover;
     background-attachment: fixed; */
 /* } */
+
+#funDiv {
+    margin-bottom: 300px;
+}
 
 #funDiv img {
     height: 70em;
@@ -328,8 +343,21 @@ body.fade-out {
 } */
 
 #contact {
-    margin: 300px 0;
-    background-color: #2d6b6d;
+    margin: 600px 0;
+    /* background-color: #2d6b6d; */
+    color: rgb(95, 160, 106);
+}
+
+#contact:hover {
+   color: rgb(160, 95, 95);
+}
+
+.contacting a {
+    color: rgb(95, 160, 106);
+}
+
+.contacting a:hover{
+    color: rgb(160, 95, 95);
 }
 
 /* Professional History End */
