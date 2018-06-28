@@ -8,7 +8,7 @@ const techUsed = (techUsed) => {
   domString += `<div class="row">`;
   techUsed.forEach((tech) => {
     domString += `<div class="col-md-3 col-sm-6 col-xs-6 techImage">`;
-    domString +=  `<img src="${tech.image}">`;
+    domString +=  `<img class="spin" src="${tech.image}">`;
     domString +=  `<h2>${tech.desc}</h2>`;
     domString += `</div>`;
   });

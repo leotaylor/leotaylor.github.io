@@ -71,9 +71,6 @@ const clickEvents = () => {
   $(document).on('click', '.threes', () => {
     $('.three').toggle();
   });
-  // $(document).on('click', '#clickFun', () => {
-  //   $('#funFacts').fadeIn(1500).removeClass('hide');
-  // });
 };
 
 const carousel = () => {
