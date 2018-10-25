@@ -9,6 +9,10 @@
       "desc": "Browserify"
     },
     {
+      "image": "./images/csharp.png",
+      "desc": "C#"
+    },
+    {
       "image": "./images/css3.png",
       "desc": "CSS3"
     },
@@ -49,12 +53,20 @@
       "desc": "node.js"
     },
     {
+      "image": "./images/postman.png",
+      "desc": "Postman"
+    },
+    {
       "image": "./images/react.png",
       "desc": "React"
     },
     {
       "image": "./images/sass.png",
       "desc": "Sass"
+    },
+    {
+      "image": "./images/sql.png",
+      "desc": "SQL"
     }
   ]
 }
