@@ -1,6 +1,10 @@
 {
   "tech": [
     {
+      "image": "./images/Azure.png",
+      "desc": "Azure"
+    },
+    {
       "image": "./images/bootstrap-logo.png",
       "desc": "Bootstrap"
     },

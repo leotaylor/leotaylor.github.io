@@ -11,6 +11,15 @@
             "github": "https://github.com/leotaylor/draft-helper"
         },
         {
+            "title": "Ayerwaves Music Festival",
+            "imageUrl": "https://media.giphy.com/media/7zSPXSmT2t5ReGEdIZ/giphy.gif",
+            "description": "Full Stack Web App for music festival. Created SQL DB, C# API, and hosted them to Azure. Created UI with React. Allows Admin to easily add artists to their lineup.",
+            "technologiesUsed": "SQL, SSMS, C#/.NET, Created Restful API, Azure, React.js, JWT, Bootstrap, Css, esLint, Firebase, Axios, JavaScript",
+            "available": true,
+            "url": "https://ayerwaves-44342.firebaseapp.com/",
+            "github": "https://github.com/leotaylor/ayerwaves-ui"
+        },
+        {
             "title": "Local Weather",
             "imageUrl": "https://raw.githubusercontent.com/leotaylor/local-weather/master/snaps/Screen%20Shot%202018-06-06%20at%207.42.19%20PM.png",
             "description": "Find your current weather and five day forecast for any given zipcode. Also, save your favorite forecasts with the option to mark any as scary or delete one.",
