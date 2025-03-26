@@ -31,7 +31,7 @@
         {
             "title": "Ex-Tracker",
             "imageUrl": "https://raw.githubusercontent.com/leotaylor/ex-tracker/master/snaps/pic1.png",
-            "description": "Assuming user wants to avoid his/her exes, user can keep track of exes frequented locations and times. Creepy? Yes. Practical? Maybe. Funny? Yes.",
+            "description": "Assuming user wants to avoid his/her exes, user can keep track of exes frequented locations and times. Creepy? Yes. Practical? Maybe. Required School Project that should have never been approved, yes.",
             "technologiesUsed": "promises, jQuery, JSON, Task Automation, CSS Animations, Github, Browserify, ,grunt, esLint, bootstrap",
             "available": true,
             "url": "https://ex-tracker-ef0ba.firebaseapp.com/",
