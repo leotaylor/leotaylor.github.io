@@ -9,10 +9,6 @@
       "desc": "Bootstrap"
     },
     {
-      "image": "./images/browserify.png",
-      "desc": "Browserify"
-    },
-    {
       "image": "./images/csharp.png",
       "desc": "C#"
     },
@@ -71,6 +67,18 @@
     {
       "image": "./images/sql.png",
       "desc": "SQL"
+    },
+    {
+      "image": "./images/svelte.png",
+      "desc": "Svelte 5"
+    },
+    {
+      "image": "./images/typescript.png",
+      "desc": "TypeScript"
+    },
+    {
+      "image": "./images/vite.png",
+      "desc": "Vite"
     }
   ]
 }
